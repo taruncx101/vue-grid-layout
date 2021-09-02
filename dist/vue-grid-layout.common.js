@@ -601,13 +601,6 @@ detector.isLegacyOpera = function() {
 
 /***/ }),
 
-/***/ "1c67":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/expand-cell-up-down.cca1e727.svg";
-
-/***/ }),
-
 /***/ "1ca7":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3285,23 +3278,15 @@ module.exports = function (key) {
 /***/ "9cbe":
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__("b041");
 exports = module.exports = __webpack_require__("2350")(false);
 // imports
 
 
 // module
-exports.push([module.i, ".vue-grid-item{-webkit-transition:all .2s ease;transition:all .2s ease;-webkit-transition-property:left,top,right;transition-property:left,top,right}.vue-grid-item.no-touch{-ms-touch-action:none;touch-action:none}.vue-grid-item.cssTransforms{-webkit-transition-property:-webkit-transform;transition-property:-webkit-transform;transition-property:transform;transition-property:transform,-webkit-transform;left:0;right:auto}.vue-grid-item.cssTransforms.render-rtl{left:auto;right:0}.vue-grid-item.resizing{opacity:.6;z-index:3}.vue-grid-item.vue-draggable-dragging{-webkit-transition:none;transition:none;z-index:3}.vue-grid-item.vue-grid-placeholder{background:red;opacity:.2;-webkit-transition-duration:.1s;transition-duration:.1s;z-index:2;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}.vue-grid-item>.vue-resizable-handle{position:absolute;width:20px;height:20px;bottom:0;right:0;background:url(\"data:image/svg+xml;base64,PHN2ZyBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjojZmZmZmZmMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjYiIGhlaWdodD0iNiI+PHBhdGggZD0iTTYgNkgwVjQuMmg0LjJWMEg2djZ6IiBvcGFjaXR5PSIuMzAyIi8+PC9zdmc+\");background-position:100% 100%;padding:0 3px 3px 0;background-repeat:no-repeat;background-origin:content-box;-webkit-box-sizing:border-box;box-sizing:border-box;cursor:se-resize}.vue-grid-item>.vue-rtl-resizable-handle{bottom:0;left:0;background:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0ibm9uZSIgZD0iTS0xLTFoMTJ2MTJILTF6Ii8+PGc+PHBhdGggc3Ryb2tlLWxpbmVjYXA9InVuZGVmaW5lZCIgc3Ryb2tlLWxpbmVqb2luPSJ1bmRlZmluZWQiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9IiMwMDAiIGZpbGw9Im5vbmUiIGQ9Ik0xNDQuODIxLTM4LjM5M2wtMjAuMzU3LTMxLjc4NSIvPjxwYXRoIHN0cm9rZT0iIzY2NiIgc3Ryb2tlLWxpbmVjYXA9InVuZGVmaW5lZCIgc3Ryb2tlLWxpbmVqb2luPSJ1bmRlZmluZWQiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIgZD0iTS45NDctLjAxOHY5LjEyNU0tLjY1NiA5aDEwLjczIi8+PC9nPjwvc3ZnPg==);background-position:0 100%;padding-left:3px;background-repeat:no-repeat;background-origin:content-box;cursor:sw-resize;right:auto}.horizontalArr{cursor:n-resize!important;bottom:-10px!important;right:50%!important;max-width:20px!important;height:20px!important;background:url(" + escape(__webpack_require__("9dd8")) + ")!important}.verticalArr{cursor:e-resize!important;bottom:48%!important;right:-12px!important;background:url(" + escape(__webpack_require__("1c67")) + ")!important}.vue-grid-item.disable-userselect{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}", ""]);
+exports.push([module.i, ".vue-grid-item{-webkit-transition:all .2s ease;transition:all .2s ease;-webkit-transition-property:left,top,right;transition-property:left,top,right}.vue-grid-item.no-touch{-ms-touch-action:none;touch-action:none}.vue-grid-item.cssTransforms{-webkit-transition-property:-webkit-transform;transition-property:-webkit-transform;transition-property:transform;transition-property:transform,-webkit-transform;left:0;right:auto}.vue-grid-item.cssTransforms.render-rtl{left:auto;right:0}.vue-grid-item.resizing{opacity:.6;z-index:3}.vue-grid-item.vue-draggable-dragging{-webkit-transition:none;transition:none;z-index:3}.vue-grid-item.vue-grid-placeholder{background:red;opacity:.2;-webkit-transition-duration:.1s;transition-duration:.1s;z-index:2;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}.vue-grid-item>.vue-resizable-handle{position:absolute;width:20px;height:20px;bottom:0;right:0;background:url(\"data:image/svg+xml;base64,PHN2ZyBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjojZmZmZmZmMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjYiIGhlaWdodD0iNiI+PHBhdGggZD0iTTYgNkgwVjQuMmg0LjJWMEg2djZ6IiBvcGFjaXR5PSIuMzAyIi8+PC9zdmc+\");background-position:100% 100%;padding:0 3px 3px 0;background-repeat:no-repeat;background-origin:content-box;-webkit-box-sizing:border-box;box-sizing:border-box;cursor:se-resize}.vue-grid-item>.vue-rtl-resizable-handle{bottom:0;left:0;background:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0ibm9uZSIgZD0iTS0xLTFoMTJ2MTJILTF6Ii8+PGc+PHBhdGggc3Ryb2tlLWxpbmVjYXA9InVuZGVmaW5lZCIgc3Ryb2tlLWxpbmVqb2luPSJ1bmRlZmluZWQiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9IiMwMDAiIGZpbGw9Im5vbmUiIGQ9Ik0xNDQuODIxLTM4LjM5M2wtMjAuMzU3LTMxLjc4NSIvPjxwYXRoIHN0cm9rZT0iIzY2NiIgc3Ryb2tlLWxpbmVjYXA9InVuZGVmaW5lZCIgc3Ryb2tlLWxpbmVqb2luPSJ1bmRlZmluZWQiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIgZD0iTS45NDctLjAxOHY5LjEyNU0tLjY1NiA5aDEwLjczIi8+PC9nPjwvc3ZnPg==);background-position:0 100%;padding-left:3px;background-repeat:no-repeat;background-origin:content-box;cursor:sw-resize;right:auto}.horizontalArr{cursor:n-resize!important;bottom:-10px!important;right:50%!important;max-width:20px!important;height:20px!important;background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI4IDI4Ij48ZyB0cmFuc2Zvcm09InJvdGF0ZSg5MCAxNCAxNCkiPjxjaXJjbGUgY3g9IjE0IiBjeT0iMTQiIHI9IjE0IiBmaWxsPSIjZmZmIi8+PGcgZGF0YS1uYW1lPSJHcm91cCA1Ij48cGF0aCBkYXRhLW5hbWU9IkZpbGwgMSIgZD0iTTE0IDI4YTE0IDE0IDAgMTExNC0xNCAxNC4wMTYgMTQuMDE2IDAgMDEtMTQgMTR6TTE0IC43QTEzLjMgMTMuMyAwIDEwMjcuMyAxNCAxMy4zMTUgMTMuMzE1IDAgMDAxNCAuN3oiLz48cGF0aCBkYXRhLW5hbWU9IkZpbGwgMyIgZD0iTTI0Ljg1NCAxMy45NjVhLjQ0LjQ0IDAgMDAtLjEtLjE0MWwtNS42ODktNS40MDJhLjQ3Mi40NzIgMCAwMC0uNjQzIDAgLjQxNi40MTYgMCAwMDAgLjYxbDQuOTE1IDQuNjY0SDUuN2w0LjkxNS00LjY2NGEuNDE2LjQxNiAwIDAwMC0uNjEuNDcyLjQ3MiAwIDAwLS42NDMgMGwtNS42OTEgNS40MDJhLjQyNi40MjYgMCAwMC0uMS4xNDEuNDEyLjQxMiAwIDAwMCAuMzMuNDI2LjQyNiAwIDAwLjEuMTQxbDUuNjkxIDUuNGEuNDcyLjQ3MiAwIDAwLjY0MyAwIC40MTYuNDE2IDAgMDAwLS42MUw1LjcgMTQuNTYxaDE3LjYzN2wtNC45MTUgNC42NjVhLjQxNi40MTYgMCAwMDAgLjYxLjQ3Mi40NzIgMCAwMC42NDMgMGw1LjY5MS01LjRhLjQzMi40MzIgMCAwMC4xLS4xNDEuNDEuNDEgMCAwMDAtLjMzIi8+PC9nPjxnIGRhdGEtbmFtZT0iR3JvdXAgNSI+PHBhdGggZGF0YS1uYW1lPSJGaWxsIDEiIGQ9Ik0xNCAyOGExNCAxNCAwIDExMTQtMTQgMTQuMDE2IDE0LjAxNiAwIDAxLTE0IDE0ek0xNCAuN0ExMy4zIDEzLjMgMCAxMDI3LjMgMTQgMTMuMzE1IDEzLjMxNSAwIDAwMTQgLjd6Ii8+PHBhdGggZGF0YS1uYW1lPSJGaWxsIDMiIGQ9Ik0yNC44NTQgMTMuOTY1YS40NC40NCAwIDAwLS4xLS4xNDFsLTUuNjg5LTUuNDAyYS40NzIuNDcyIDAgMDAtLjY0MyAwIC40MTYuNDE2IDAgMDAwIC42MWw0LjkxNSA0LjY2NEg1LjdsNC45MTUtNC42NjRhLjQxNi40MTYgMCAwMDAtLjYxLjQ3Mi40NzIgMCAwMC0uNjQzIDBsLTUuNjkxIDUuNDAyYS40MjYuNDI2IDAgMDAtLjEuMTQxLjQxMi40MTIgMCAwMDAgLjMzLjQyNi40MjYgMCAwMC4xLjE0MWw1LjY5MSA1LjRhLjQ3Mi40NzIgMCAwMC42NDMgMCAuNDE2LjQxNiAwIDAwMC0uNjFMNS43IDE0LjU2MWgxNy42MzdsLTQuOTE1IDQuNjY1YS40MTYuNDE2IDAgMDAwIC42MS40NzIuNDcyIDAgMDAuNjQzIDBsNS42OTEtNS40YS40MzIuNDMyIDAgMDAuMS0uMTQxLjQxLjQxIDAgMDAwLS4zMyIvPjwvZz48L2c+PC9zdmc+)!important}.verticalArr{cursor:e-resize!important;bottom:48%!important;right:-12px!important;background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNyAyNyIgd2lkdGg9IjIzIiBoZWlnaHQ9IjI0Ij48ZGVmcz48aW1hZ2Ugd2lkdGg9IjIyIiBoZWlnaHQ9IjI0IiBpZD0iaW1nMSIgaHJlZj0iZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFCc0FBQUFiQ0FNQUFBQzZDZ1JuQUFBQUFYTlNSMElCMmNrc2Z3QUFBR1pRVEZSRitmMysyOTdmZUhsNUpDVWxHQmtaRkJRVUVCQVFFeE1UR1JrWkpDUWtlWGw1NE9EZy8vLy9RRUJBWTJOalltTmpqNCtQZUhoNFBqNC9NVEV4TURBd1pHUmtQejgva1pHUkNRa0pxS2lvZG5kNEl5TWo0dUxpR0JnWUFRRUJCQVFFdzhQRGRuaDQ0T2toeVFBQUFPOUpSRUZVZUp5Rmt1MTJneUFNaHVQV3NJOUVLanEwRkszdS9tOXlJTUdpYzJmdnI4QkRUc0tiQUlpcWw5Y0xxcmYzajA5aVVTYTEwdW1PTk5aVXNpczIvRlNENXNuYWp2ZjZxak5yTFIrbCs4U3V4NnlvemtSVzRRbGlSZ3FzSFU1WjB6TlVLc1YwY3lsd041SkV1RnRCZXVzalFXdkFqd2VVSVhtNC9FSVpUb0JyaWRLV0lLTkNjWVRZeW1OV0I4MFBaclhtYVVYN3ZFV1ptTGZXYzdNclVUcE8wdWNPcHNQbzgvOEtLR0g0WDdiVHpZdlVrbGZCbDgzUFJmcWg5R2JvLzVrRGZQODl2OU81VzVuN3liNTBFVzE3Vmc1NEtQY3NOTlNpWFUzZzBXSy8yODlJN3o3c05VN2ViTjcrQUxGYklzRkllanhPQUFBQUFFbEZUa1N1UW1DQyIvPjwvZGVmcz48c3R5bGU+PC9zdHlsZT48dXNlIGlkPSJMYXllciAxIiBocmVmPSIjaW1nMSIgeD0iMCIgeT0iMCIvPjwvc3ZnPg==)!important}.vue-grid-item.disable-userselect{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}", ""]);
 
 // exports
 
-
-/***/ }),
-
-/***/ "9dd8":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/expand-cell-vertical.bc3b44b5.svg";
 
 /***/ }),
 
@@ -4394,29 +4379,6 @@ exports.push([module.i, ".vue-grid-layout{position:relative;-webkit-transition:h
 
 /***/ }),
 
-/***/ "b041":
-/***/ (function(module, exports) {
-
-module.exports = function escape(url) {
-    if (typeof url !== 'string') {
-        return url
-    }
-    // If url is already wrapped in quotes, remove them
-    if (/^['"].*['"]$/.test(url)) {
-        url = url.slice(1, -1);
-    }
-    // Should url be wrapped?
-    // See https://drafts.csswg.org/css-values-3/#urls
-    if (/["'() \t\n]/.test(url)) {
-        return '"' + url.replace(/"/g, '\\"').replace(/\n/g, '\\n') + '"'
-    }
-
-    return url
-}
-
-
-/***/ }),
-
 /***/ "b0c5":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4473,12 +4435,12 @@ __webpack_require__.d(all_namespaceObject, "edgeTarget", function() { return edg
 __webpack_require__.d(all_namespaceObject, "elements", function() { return snappers_elements; });
 __webpack_require__.d(all_namespaceObject, "grid", function() { return grid; });
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"27f16234-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/GridItem.vue?vue&type=template&id=deb014d4&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"27f16234-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/GridItem.vue?vue&type=template&id=e5be2506&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"item",staticClass:"vue-grid-item",class:_vm.classObj,style:(_vm.style)},[_vm._t("default"),(_vm.resizableAndNotStatic)?_c('span',{ref:"handle",staticClass:"verticalArr",class:_vm.resizableHandleClass}):_vm._e(),(_vm.resizableAndNotStatic)?_c('span',{ref:"handle2",staticClass:"horizontalArr",class:_vm.resizableHandleClass}):_vm._e()],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/GridItem.vue?vue&type=template&id=deb014d4&
+// CONCATENATED MODULE: ./src/components/GridItem.vue?vue&type=template&id=e5be2506&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.regexp.replace.js
 var es6_regexp_replace = __webpack_require__("a481");
