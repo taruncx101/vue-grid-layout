@@ -84,13 +84,15 @@
         cursor: n-resize !important; 
         bottom: -10px !important; 
         right: 50% !important;
-        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAMAAAC6CgRnAAAAAXNSR0IB2cksfwAAAEVQTFRF////4ODgenp6JSUlGRkZFBQUEBAQQEBAY2Njj4+PeHh4Pz8/MTExMDAwZGRkkZGRCQkJqKioIyMj4uLiAQEBBAQEw8PDpCGOggAAANxJREFUeJx9klsChCAIRaHETBtLe+x/qeMDy6wZfoKOyBUAYMOuFyRJ9B3C3XCQKv9DRcONKhqraCR9BWZqrvkMJ7LQmjL8bbOiTelapBcEQFGQmV/ZGG5FmX1cXHbcgiVRW0bq1JGh1eDXBhWIHsQDFSiAUom6LcG0DMUJopRtl43tGwQS85Rsen9IHfNSPbe7GuVQsM4bzMHqy/sqyG54X2mn2w+uxadiQ0s/D9aD+cwcp/RvDqB/z+917tYU77Evk7l8RfWA53rPgiBDNjUBVkvmsb3ap732+iRf3bYIHqbOJ0IAAAAASUVORK5CYII=) !important;
+        max-width: 20px !important;
+        height: 20px !important;
+        background: url('~@/assets/images/expand-cell-vertical.svg') !important;
     }
     .verticalArr{
         cursor: e-resize !important; 
-        bottom: 50% !important; 
-        right: -10px !important;
-        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAMAAAC6CgRnAAAAAXNSR0IB2cksfwAAAEVQTFRF////4ODgenp6JSUlGRkZFBQUEBAQQEBAY2Njj4+PeHh4Pz8/MTExMDAwZGRkkZGRCQkJqKioIyMj4uLiAQEBBAQEw8PDpCGOggAAANxJREFUeJx9klsChCAIRaHETBtLe+x/qeMDy6wZfoKOyBUAYMOuFyRJ9B3C3XCQKv9DRcONKhqraCR9BWZqrvkMJ7LQmjL8bbOiTelapBcEQFGQmV/ZGG5FmX1cXHbcgiVRW0bq1JGh1eDXBhWIHsQDFSiAUom6LcG0DMUJopRtl43tGwQS85Rsen9IHfNSPbe7GuVQsM4bzMHqy/sqyG54X2mn2w+uxadiQ0s/D9aD+cwcp/RvDqB/z+917tYU77Evk7l8RfWA53rPgiBDNjUBVkvmsb3ap732+iRf3bYIHqbOJ0IAAAAASUVORK5CYII=) !important;
+        bottom: 48% !important; 
+        right: -12px !important;
+        background: url('~@/assets/images/expand-cell-up-down.svg') !important;
     }
     .vue-grid-item.disable-userselect {
         user-select: none;
