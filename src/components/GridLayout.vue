@@ -14,6 +14,7 @@
     .vue-grid-layout {
         position: relative;
         transition: height 200ms ease;
+        /* margin: 20px; */
     }
 </style>
 <script>
