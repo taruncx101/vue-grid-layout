@@ -5,7 +5,8 @@
          :style="style"
     >
         <slot></slot>
-        <span v-if="resizableAndNotStatic" ref="handle" :class="resizableHandleClass"></span>
+        <span v-if="resizableAndNotStatic" ref="handle" :class="resizableHandleClass" class="verticalArr"></span>
+        <span v-if="resizableAndNotStatic" ref="handle2" :class="resizableHandleClass" class="horizontalArr"></span>
         <!--<span v-if="draggable" ref="dragHandle" class="vue-draggable-handle"></span>-->
     </div>
 </template>
@@ -68,7 +69,6 @@
         box-sizing: border-box;
         cursor: se-resize;
     }
-
     .vue-grid-item > .vue-rtl-resizable-handle {
         bottom: 0;
         left: 0;
@@ -80,7 +80,18 @@
         cursor: sw-resize;
         right: auto;
     }
-
+    .horizontalArr{
+        cursor: n-resize !important; 
+        bottom: -10px !important; 
+        right: 50% !important;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAMAAAC6CgRnAAAAAXNSR0IB2cksfwAAAEVQTFRF////4ODgenp6JSUlGRkZFBQUEBAQQEBAY2Njj4+PeHh4Pz8/MTExMDAwZGRkkZGRCQkJqKioIyMj4uLiAQEBBAQEw8PDpCGOggAAANxJREFUeJx9klsChCAIRaHETBtLe+x/qeMDy6wZfoKOyBUAYMOuFyRJ9B3C3XCQKv9DRcONKhqraCR9BWZqrvkMJ7LQmjL8bbOiTelapBcEQFGQmV/ZGG5FmX1cXHbcgiVRW0bq1JGh1eDXBhWIHsQDFSiAUom6LcG0DMUJopRtl43tGwQS85Rsen9IHfNSPbe7GuVQsM4bzMHqy/sqyG54X2mn2w+uxadiQ0s/D9aD+cwcp/RvDqB/z+917tYU77Evk7l8RfWA53rPgiBDNjUBVkvmsb3ap732+iRf3bYIHqbOJ0IAAAAASUVORK5CYII=) !important;
+    }
+    .verticalArr{
+        cursor: e-resize !important; 
+        bottom: 50% !important; 
+        right: -10px !important;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAMAAAC6CgRnAAAAAXNSR0IB2cksfwAAAEVQTFRF////4ODgenp6JSUlGRkZFBQUEBAQQEBAY2Njj4+PeHh4Pz8/MTExMDAwZGRkkZGRCQkJqKioIyMj4uLiAQEBBAQEw8PDpCGOggAAANxJREFUeJx9klsChCAIRaHETBtLe+x/qeMDy6wZfoKOyBUAYMOuFyRJ9B3C3XCQKv9DRcONKhqraCR9BWZqrvkMJ7LQmjL8bbOiTelapBcEQFGQmV/ZGG5FmX1cXHbcgiVRW0bq1JGh1eDXBhWIHsQDFSiAUom6LcG0DMUJopRtl43tGwQS85Rsen9IHfNSPbe7GuVQsM4bzMHqy/sqyG54X2mn2w+uxadiQ0s/D9aD+cwcp/RvDqB/z+917tYU77Evk7l8RfWA53rPgiBDNjUBVkvmsb3ap732+iRf3bYIHqbOJ0IAAAAASUVORK5CYII=) !important;
+    }
     .vue-grid-item.disable-userselect {
         user-select: none;
     }
@@ -331,6 +342,7 @@
             this.useCssTransforms = this.layout.useCssTransforms;
             this.useStyleCursor = this.layout.useStyleCursor;
             this.createStyle();
+            console.log('this.interactObj',this.interactObj);
         },
         watch: {
             isDraggable: function () {
@@ -787,9 +799,12 @@
             },
             tryMakeResizable: function(){
                 const self = this;
+                console.log('this.interactObj', this.interactObj)
                 if (this.interactObj === null || this.interactObj === undefined) {
                     this.interactObj = interact(this.$refs.item);
+                    console.log('this.interactObj', this.interactObj)
                     if (!this.useStyleCursor) {
+                        console.log('styleCursor')
                         this.interactObj.styleCursor(false);
                     }
                 }
