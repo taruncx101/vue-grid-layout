@@ -11372,7 +11372,7 @@ _interactjs_interact.use(dev_tools_plugin);
     this.useCssTransforms = this.layout.useCssTransforms;
     this.useStyleCursor = this.layout.useStyleCursor;
     this.createStyle();
-    console.log('this.interactObj', this.interactObj);
+    // console.log('this.interactObj', this.interactObj);
   },
   watch: {
     isDraggable: function isDraggable() {
